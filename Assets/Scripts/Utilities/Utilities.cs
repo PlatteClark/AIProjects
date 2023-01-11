@@ -18,6 +18,11 @@ public static class Utilities
         if (result.z > max.z) { result.z = min.z; }
         else if (result.z < min.z) { result.z = max.z; }
 
- return result;
+        return result;
+    }
+
+    public static Vector3 ClampMagnitude(Vector3 v, float min, float max)
+    {
+        return v.normalized * Mathf.Clamp(v.magnitude, min, max);
     }
 }
