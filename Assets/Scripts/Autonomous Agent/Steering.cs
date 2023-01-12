@@ -40,4 +40,26 @@ public static class Steering
 
         return force;
     }
+
+    public static Vector3 Cohesion(Agent agent, GameObject[] neighbors)
+    {
+        Vector3 center = Vector3.zero;
+        foreach (GameObject neighbor in neighbors)
+        {
+            center += neighbor.transform.position;
+        }
+        center /= neighbors.Length;
+
+        Vector3 force = CalculateSteering(agent, center - agent.transform.position);
+
+        return force;
+    }
+    public static Vector3 Alignement(Agent agent, GameObject[] neighbors)
+    {
+        return Vector3.zero;
+    }
+    public static Vector3 Seperation(Agent agent, GameObject[] neighbors, float radius) 
+    {
+        return Vector3.zero;
+    }
 }

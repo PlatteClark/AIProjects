@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9029216247984045940}
   - component: {fileID: 9029216247984045936}
   - component: {fileID: 9029216247984045939}
+  - component: {fileID: 6579854029370949078}
   - component: {fileID: 9029216247984045938}
   - component: {fileID: 9029216247984045943}
   - component: {fileID: 9029216247984045942}
@@ -35,7 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9029216247984045940
 MeshFilter:
@@ -59,6 +60,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   perception: {fileID: 9029216247984045938}
   movement: {fileID: 9029216247984045939}
+  flockPerception: {fileID: 6579854029370949078}
   fleeWeight: 0
   SeekWeight: 2
   wanderDistance: 1
@@ -77,8 +79,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 5
-  minSpeed: 1
+  minSpeed: 2
   maxForce: 10
+--- !u!114 &6579854029370949078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029216247984045897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a975efbdd05740543b4575684b429075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: 
+  distance: 10
+  maxAngle: 180
 --- !u!114 &9029216247984045938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagName: Agent02
   distance: 20
-  maxAngle: 45
+  maxAngle: 180
 --- !u!23 &9029216247984045943
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -114,7 +131,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9fc93e469122df4448db03925c01354a, type: 2}
+  - {fileID: 2100000, guid: f415d7f552422974b8f3e409581c5504, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
