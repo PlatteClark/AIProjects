@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: ce95b8be4b23292418785ec6f5c622df
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: GOOBIN_Walk
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GOOBIN_Walk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.0023752968
+        functionName: Step1Sound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.55106884
+        functionName: Step2Sound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 3
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Goobin_Rig:QuickRigCharacter_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Goobin_Rig:QuickRigCharacter_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: GOOBIN_Walk(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goobin_Rig:pasted__pSphere1
+      parentName: GOOBIN_Walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goobin_Rig:QuickRigCharacter_Reference
+      parentName: GOOBIN_Walk(Clone)
+      position: {x: -0.000049393177, y: 0.000052323936, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goobin_Rig:QuickRigCharacter_Hips
+      parentName: Goobin_Rig:QuickRigCharacter_Reference
+      position: {x: 4.3655746e-11, y: 0.027989512, z: 0.0006065845}
+      rotation: {x: 0.49981207, y: -0.5001879, z: -0.49981207, w: 0.5001879}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goobin_Rig:QuickRigCharacter_LeftUpLeg
+      parentName: Goobin_Rig:QuickRigCharacter_Hips
+      position: {x: 0.0013080244, y: -0.000024554472, z: 0.0026125477}
+      rotation: {x: 0.00084622204, y: 0.038513258, z: -0.9980257, w: 0.04960534}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: Goobin_Rig:QuickRigCharacter_LeftLeg
+      parentName: Goobin_Rig:QuickRigCharacter_LeftUpLeg
+      position: {x: -0.012993165, y: 0.000000014775984, z: 0.000000048115947}
+      rotation: {x: -0.0006801808, y: 0.000027467493, z: 0.116344556, w: -0.99320865}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000005}
+    - name: Goobin_Rig:QuickRigCharacter_LeftFoot
+      parentName: Goobin_Rig:QuickRigCharacter_LeftLeg
+      position: {x: -0.011409219, y: -0.000000052535572, z: -0.0000000027570106}
+      rotation: {x: -0.006289666, y: -0.007132396, z: -0.6748349, w: -0.73790747}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000001}
+    - name: Goobin_Rig:QuickRigCharacter_LeftToeBase
+      parentName: Goobin_Rig:QuickRigCharacter_LeftFoot
+      position: {x: -0.0077829794, y: -0.0000000030255938, z: 0.000000004716703}
+      rotation: {x: -0, y: -0, z: -0.000000007894413, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: Goobin_Rig:QuickRigCharacter_RightUpLeg
+      parentName: Goobin_Rig:QuickRigCharacter_Hips
+      position: {x: 0.0013080244, y: -0.000024554472, z: -0.0026125477}
+      rotation: {x: -0.036570966, y: 0.0008151829, z: 0.04775721, w: 0.998189}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: Goobin_Rig:QuickRigCharacter_RightLeg
+      parentName: Goobin_Rig:QuickRigCharacter_RightUpLeg
+      position: {x: 0.012992473, y: 0.00000083938863, z: 0.000000044691244}
+      rotation: {x: 0.0014836043, y: -0.000046155124, z: 0.11431471, w: -0.99344355}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000002}
+    - name: Goobin_Rig:QuickRigCharacter_RightFoot
+      parentName: Goobin_Rig:QuickRigCharacter_RightLeg
+      position: {x: 0.011408295, y: -0.0000000052839253, z: -0.0000000010113397}
+      rotation: {x: -0.0051400913, y: -0.008104669, z: -0.6747066, w: -0.73802376}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Goobin_Rig:QuickRigCharacter_RightToeBase
+      parentName: Goobin_Rig:QuickRigCharacter_RightFoot
+      position: {x: 0.007785097, y: -0.0000000028794065, z: 0.0000000012028998}
+      rotation: {x: 0.00002542743, y: -0.00000022025773, z: -0.00000008245113, w: 1}
+      scale: {x: 1.0000006, y: 1, z: 1.0000002}
+    - name: Goobin_Rig:QuickRigCharacter_Spine
+      parentName: Goobin_Rig:QuickRigCharacter_Hips
+      position: {x: -0.0009806685, y: -0.000000004681318, z: 0}
+      rotation: {x: -0, y: -0, z: 0.0031934972, w: 0.9999949}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Goobin_Rig:QuickRigCharacter_Spine1
+      parentName: Goobin_Rig:QuickRigCharacter_Spine
+      position: {x: -0.0024630448, y: 5.2095156e-10, z: 0}
+      rotation: {x: 0.0000013762087, y: 0.00057092163, z: -0.002459111, w: 0.99999684}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Goobin_Rig:QuickRigCharacter_Spine2
+      parentName: Goobin_Rig:QuickRigCharacter_Spine1
+      position: {x: -0.007919213, y: -2.144719e-10, z: 0.0000000012192742}
+      rotation: {x: -0.0000006711351, y: -0.0010411637, z: 0.006726671, w: 0.9999769}
+      scale: {x: 0.9999999, y: 1, z: 0.99999976}
+    - name: Goobin_Rig:QuickRigCharacter_LeftShoulder
+      parentName: Goobin_Rig:QuickRigCharacter_Spine2
+      position: {x: -0.0085350955, y: -0.00043878358, z: 0.0011430947}
+      rotation: {x: -0.4288069, y: 0.5622562, z: 0.5554581, w: 0.43756014}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Goobin_Rig:QuickRigCharacter_LeftArm
+      parentName: Goobin_Rig:QuickRigCharacter_LeftShoulder
+      position: {x: -0.0039475625, y: -0.0000000019480082, z: -1.2929301e-11}
+      rotation: {x: 0.69054425, y: -0.0658522, z: -0.05521525, w: 0.7181667}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: Goobin_Rig:QuickRigCharacter_LeftForeArm
+      parentName: Goobin_Rig:QuickRigCharacter_LeftArm
+      position: {x: -0.014062346, y: 0.00000021968316, z: -0.00000072957056}
+      rotation: {x: -0.02537039, y: -0.03836832, z: -0.026793268, w: 0.9985821}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: Goobin_Rig:QuickRigCharacter_LeftHand
+      parentName: Goobin_Rig:QuickRigCharacter_LeftForeArm
+      position: {x: -0.01490404, y: 0.000000031985074, z: 0.0000000014164493}
+      rotation: {x: 0.000000140586, y: 0.00000003214517, z: 0.00007243313, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000005}
+    - name: Goobin_Rig:QuickRigCharacter_RightShoulder
+      parentName: Goobin_Rig:QuickRigCharacter_Spine2
+      position: {x: -0.0085854, y: -0.0004380294, z: -0.0011868074}
+      rotation: {x: 0.5649504, y: 0.4252337, z: -0.43404233, w: 0.5582245}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000005}
+    - name: Goobin_Rig:QuickRigCharacter_RightArm
+      parentName: Goobin_Rig:QuickRigCharacter_RightShoulder
+      position: {x: 0.0039195055, y: -0.0000000023137847, z: 3.3050673e-10}
+      rotation: {x: -0.69016874, y: 0.06979546, z: 0.061113913, w: -0.7176775}
+      scale: {x: 1.0000007, y: 1.0000004, z: 0.99999994}
+    - name: Goobin_Rig:QuickRigCharacter_RightForeArm
+      parentName: Goobin_Rig:QuickRigCharacter_RightArm
+      position: {x: 0.014103358, y: 0.00000013892678, z: -0.00000011087902}
+      rotation: {x: -0.02549251, y: -0.038693797, z: -0.025585724, w: 0.99859816}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: Goobin_Rig:QuickRigCharacter_RightHand
+      parentName: Goobin_Rig:QuickRigCharacter_RightForeArm
+      position: {x: 0.014867963, y: -0.000000019578799, z: -8.5258683e-10}
+      rotation: {x: -0.00000011545488, y: -0.00000072184764, z: 0.00007195741, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: Goobin_Rig:QuickRigCharacter_Neck
+      parentName: Goobin_Rig:QuickRigCharacter_Spine2
+      position: {x: -0.009613199, y: 7.4674217e-10, z: 0.0000000017647073}
+      rotation: {x: 0.0000028682261, y: 0.00047025504, z: 0.0060528587, w: 0.9999816}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Goobin_Rig:QuickRigCharacter_Head
+      parentName: Goobin_Rig:QuickRigCharacter_Neck
+      position: {x: -0.0050428766, y: 0.0000000029367289, z: 9.273278e-10}
+      rotation: {x: -0, y: -0, z: 4.8186122e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
